@@ -12,6 +12,7 @@
 		34C7659B1B3A4399000D1CC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C7659A1B3A4399000D1CC4 /* Images.xcassets */; };
 		34C7659E1B3A4399000D1CC4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C7659C1B3A4399000D1CC4 /* LaunchScreen.xib */; };
 		34C765AA1B3A4399000D1CC4 /* GitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C765A91B3A4399000D1CC4 /* GitTests.m */; };
+		34C765B51B3A4669000D1CC4 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C765B41B3A4669000D1CC4 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		34C765A31B3A4399000D1CC4 /* GitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C765A81B3A4399000D1CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34C765A91B3A4399000D1CC4 /* GitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTests.m; sourceTree = "<group>"; };
+		34C765B31B3A4669000D1CC4 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		34C765B41B3A4669000D1CC4 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				34C765971B3A4399000D1CC4 /* AppDelegate.h */,
 				34C765981B3A4399000D1CC4 /* AppDelegate.m */,
+				34C765B31B3A4669000D1CC4 /* MyView.h */,
+				34C765B41B3A4669000D1CC4 /* MyView.m */,
 				34C7659A1B3A4399000D1CC4 /* Images.xcassets */,
 				34C7659C1B3A4399000D1CC4 /* LaunchScreen.xib */,
 				34C765931B3A4399000D1CC4 /* Supporting Files */,
@@ -212,6 +217,7 @@
 			files = (
 				34C765991B3A4399000D1CC4 /* AppDelegate.m in Sources */,
 				34C765961B3A4399000D1CC4 /* main.m in Sources */,
+				34C765B51B3A4669000D1CC4 /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
