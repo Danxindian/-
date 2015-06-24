@@ -22,6 +22,8 @@
     [self.window makeKeyAndVisible];
     
     NSLog(@"我的第一次来了");
+    NSLog(@"我的第二次来了");
+    
     return YES;
 }
 
